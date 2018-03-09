@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.jojo.test_demo.WatchMoreActivity">
+    <Button
+        android:id="@+id/btn"
+        android:text="展开全部"
+        android:layout_width="wrap_content"
+        android:onClick="switchStaus"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"/>
+    <!--<com.example.jojo.test_demo.CollapsibleTextView-->
+        <!--android:id="@+id/desc_collapse_tv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="你说嗲话山东省大四的哦爱施德阿斯德宏奥斯丁会哦爱施德红阿萨德好似哦爱施德毫升到死的好黑黑的哦爱施德阿斯德宏奥斯丁会哦爱施德红阿萨德好似哦爱施德毫升到死的好 哦爱施德阿斯德宏奥斯丁会哦爱施德红阿萨德好似哦爱施德毫升到死的好哦爱施德阿斯德宏奥斯丁会哦爱施德红阿萨德好似哦爱施德毫升到死的好哦爱施德阿斯德宏奥斯丁会哦爱施德红阿萨德好似哦爱施德毫升到死的好哦爱施德阿斯德宏奥斯丁会哦爱施德红阿萨德好似哦爱施德毫升到死的好哦爱施德阿斯德宏奥斯丁会哦爱施德红阿萨德好似哦爱施德毫升到死的好哦爱施德阿斯德宏奥斯丁会哦爱施德红阿萨德好似哦爱施德毫升到死的好德宏爱上的哦啊手动!"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+</LinearLayout>
